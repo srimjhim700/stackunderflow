@@ -1,0 +1,8 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Rewrite custom URLs to HTML files
+RewriteRule ^home$ /home.html [L]
+RewriteRule ^login$ /index.html [L]
+RewriteRule ^signup$ /signup.html [L]
+RewriteRule ^question189470615690314$ /challenge.html [L]
